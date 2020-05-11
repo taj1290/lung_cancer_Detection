@@ -27,11 +27,6 @@ Example usage:
         --train_dir=path/to/train_dir \
         --pipeline_config_path=pipeline_config.pbtxt
 
-2) Three configuration files can be provided: a model_pb2.DetectionModel
-configuration file to define what type of DetectionModel is being trained, an
-input_reader_pb2.InputReader file to specify what training data will be used and
-a train_pb2.TrainConfig file to configure training parameters.
-
 Example usage:
     ./train \
         --logtostderr \
